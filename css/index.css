@@ -1,0 +1,36 @@
+@import './fonts.css';
+@import './icons.css';
+@import './button.css';
+@import './bottom-navigation.css';
+@import './movies.css';
+@import './header.css';
+@import './hero.css';
+@import './wrapper.css';
+@import './main.css';
+@import './footer.css';
+@import './scrollbar.css';
+
+:root { 
+  --white: #ffffff; 
+  --grey: #686868; 
+  --black: #000000; 
+  --red: #d22f26; 
+  --subtitle1: 700 1.09375rem/normal Avenir Next; 
+  --headline1: 700 1.708984375rem/normal Avenir Next; 
+  --button: 600 .75rem/normal Avenir Next; 
+  --body1-demibold: 600 0.875rem/1.5rem Avenir Next; 
+  --body1-regular: 400 0.875rem/1.5rem Avenir Next; 
+  --body2-demibold: 600 0.699999988079071rem/normal Avenir Next; 
+  --body2-regular: 400 0.699999988079071rem/normal Avenir Next; 
+}
+
+body {
+  color: var(--white);
+  background-color: var(--black);
+  font: var(--headline1);
+  margin: 0;
+  padding: 0;
+}
+
+
+

@@ -1,0 +1,25 @@
+.header{
+  position: relative;
+  z-index: 2;
+}
+
+.header-containerLogo{
+  height: 24px;
+  margin-block-end: 24px;
+  padding-block-start: 16px;
+  margin-inline-start: 16px;
+  margin-inline-end: 16px;
+}
+.header-logo{
+  vertical-align: top;  
+}
+.header-list{
+  list-style: none;
+  display: flex;
+  font: var(--body1-regular);
+  gap: 48px;
+  max-inline-size: 235px;
+  padding: 0;
+  margin: auto;
+  margin-block-start: 0;
+}

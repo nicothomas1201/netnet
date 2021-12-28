@@ -1,0 +1,57 @@
+.hero-container{
+  position: relative;
+  block-size: 549px;
+}
+
+.hero{
+  background-image: url('../images/hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: 360px 513px;
+  block-size: 513px;
+}
+
+.hero-details{
+  position: absolute;
+  inline-size: 100%;
+  bottom: 0;
+  z-index: 1;
+}
+
+.hero-description{
+  font: var(--body2-regular);
+  max-inline-size: 312px;
+  text-align: center;
+  margin: auto;
+  margin-block-end: 12px;
+}
+
+.hero-controls{
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+}
+
+.hero-controls-button{
+  text-align: center;
+  font: var(--button);
+}
+
+.hero-controls-button span{
+  display: block;
+}
+
+.hero-bgBottom{
+  inline-size: 100%;
+  block-size: 70px;
+  background: linear-gradient(rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.616), #000, #000);
+  position: absolute;
+  bottom: 10px;
+}
+
+.hero-bgTop{
+  inline-size: 100%;
+  block-size: 70px;
+  background: linear-gradient(to top,rgba(0, 0, 0, 0.144), rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.616), #000, #000);
+  position: absolute;
+  top: 0;
+}

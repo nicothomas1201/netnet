@@ -1,0 +1,25 @@
+.button{
+  color: var(--black);
+  font: var(--button);
+  block-size: 32px;
+  border-radius: 2px;
+  border: none;
+  padding: 0;
+}
+
+.button-content{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-inline-start: 16px;
+  padding-inline-end: 16px;
+}
+
+.button i{
+  font-size: 24px;
+}
+
+.button i::before{
+  color: var(--black);
+  inline-size: 24px;
+}

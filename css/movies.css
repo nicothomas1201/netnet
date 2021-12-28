@@ -1,0 +1,19 @@
+.movies{
+  margin-inline-start: 16px;
+}
+
+.movies p{
+  margin-block-start: 16px;
+  margin-block-end: 8px;
+  font: var(--subtitle1);
+}
+
+.movies-slider{
+  display: flex;
+  gap: 8px;
+  overflow: auto;
+}
+
+.movies:last-of-type{
+  margin-block-end: 70px;
+}

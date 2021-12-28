@@ -1,0 +1,28 @@
+.bottom-navigation{
+  display: flex;
+  list-style: none;
+  font: var(--body2-regular);
+  color: var(--grey);
+  gap: 8px;
+  padding: 0;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.bottom-buttons{
+  text-align: center;
+  padding-block-start: 13px;
+  padding-block-end: 13px;
+
+}
+
+
+
+.bottom-buttons i{
+  font-size: 21px;
+}
+
+.bottom-buttons span{
+  display: block;
+}
