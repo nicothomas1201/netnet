@@ -9,6 +9,16 @@
 @import './main.css';
 @import './footer.css';
 @import './scrollbar.css';
+@import './matrix-reaload/movie-matrix.css';
+@import './matrix-reaload/movie-matrix-controls.css';
+@import './matrix-reaload/navigation-movie-matrix.css';
+@import './matrix-reaload/movie-matrix-movies.css';
+@import './matrix-reaload/movie-matrix-header.css';
+@import './matrix-reaload/movie-matrix-layout.css';
+
+
+
+
 
 :root { 
   --white: #ffffff; 

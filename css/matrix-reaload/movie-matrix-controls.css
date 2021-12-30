@@ -1,0 +1,22 @@
+.movieMatrixControls{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-block-start: 16px;
+}
+
+.movieMatrixControls .button .button-content{
+  justify-content: center;
+}
+
+.movieMatrixControls .button:last-of-type {
+  background-color: #2B2B2B;
+}
+
+.movieMatrixControls .button:last-of-type a{
+  color: var(--white);
+}
+
+.movieMatrixControls .button:last-of-type i::before{
+  color: var(--white);
+}

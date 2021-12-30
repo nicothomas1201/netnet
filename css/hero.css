@@ -3,11 +3,18 @@
   block-size: 549px;
 }
 
+.hero-container:hover .hero{
+  background-image: url('../images/hero-bg-hover.png');  
+  transition: .3s background-image linear;
+}
+
 .hero{
   background-image: url('../images/hero-bg.png');
   background-repeat: no-repeat;
-  background-size: 360px 513px;
+  background-size: 100% 100%;
   block-size: 513px;
+  transition: .3s background-image linear;
+
 }
 
 .hero-details{
@@ -34,6 +41,7 @@
 .hero-controls-button{
   text-align: center;
   font: var(--button);
+  cursor: pointer;
 }
 
 .hero-controls-button span{

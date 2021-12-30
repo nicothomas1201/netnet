@@ -1,0 +1,58 @@
+.movieMatrix-title{
+  margin: 0;
+}
+
+.movieMatrix-details{
+  font: var(--body1-regular);
+  display: flex;
+  inline-size: 100%;
+  gap: 16px;
+  color: var(--grey);
+}
+
+.movieMatrix-details p:first-of-type{
+  color: #71D074;
+  font: 700 14px/24px Avenir Next;
+  flex-grow: 1;
+}
+
+.movieMatrix-details p:nth-last-of-type(2) span{
+  color: var(--white);
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  background-color: #4D4D4D;
+  block-size: 24px;
+  inline-size: 18px;
+  border-radius: 2px;
+  border: none;
+}
+
+.movieMatrix-details p:last-of-type span{
+  border: 1px solid red;
+  padding-inline-start: 4px;
+  padding-inline-end: 4px;
+  border-radius: 2px;
+  border: 1px solid #4D4D4D;
+  color: var(--white);
+}
+
+.movieMatrix-details p{
+  margin: 0;
+}
+
+.movieMatrix-description{
+  font: var(--body1-regular);
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+}
+
+.movieMatrix-description-elenco{
+  font: var(--body2-demibold);
+  margin-block-end: 24px;
+}
+
+.movieMatrix-description-elenco p{
+  color: var(--grey);
+  margin: 0;
+}

@@ -1,0 +1,12 @@
+.movieMatrix-movies .movies{
+  margin: 0;
+  margin-block-end: calc(66px + 12px);
+}
+
+.movieMatrix-movies .movies p{
+  margin: 0;
+  border-block-start: 4px solid var(--red);
+  display: inline-block;
+  padding-block-start: 8px;
+  padding-block-end: 8px;
+}

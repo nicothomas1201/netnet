@@ -1,0 +1,10 @@
+.navigation-movieMatrix .bottom-navigation{
+  position: static;
+  justify-content: flex-start;
+  margin-block-end: 24px;
+  gap: 24px;
+}
+
+.navigation-movieMatrix .bottom-navigation i::before{
+  color: var(--white);
+}

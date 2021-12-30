@@ -2,6 +2,10 @@
   margin-inline-start: 16px;
 }
 
+.movies img{
+  cursor: pointer;
+}
+
 .movies p{
   margin-block-start: 16px;
   margin-block-end: 8px;

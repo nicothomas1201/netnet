@@ -10,6 +10,10 @@
   margin: 0;
 }
 
+.bottom-navigation li{
+  cursor: pointer;
+}
+
 .bottom-buttons{
   text-align: center;
   padding-block-start: 13px;
